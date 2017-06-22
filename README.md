@@ -1,4 +1,4 @@
-# pySPR - Symbolic Pattern Recognition in Python
+ # pySPR - Symbolic Pattern Recognition in Python
 
 ##This code implements the Symbolic Pattern Recognition (SPR) methods as published by:
 
@@ -10,13 +10,13 @@ Everything was developed from first principals and the documentation in the arti
 Several optimizations have been used, including efficient hash-based substring search and several recurrence relations between sequentially-sized lists of n-grams and pattern transition matrices.
 
 ## Demonstrating Usage:
-###Create the SPR analysis object:
+### Create the SPR analysis object:
 `thisSPR = SPRanal(['a','b','c'],'aabcabccbabcabcbaabc')`
 
-###Set it up for the modeling - this must be done before anything else
+### Set it up for the modeling - this must be done before anything else
 `thisSPR.SetPTPParams(10,0.1,{'p':4241,'x':42}); print(thisSPR)`
 
-###Functions (used by `BuildPTPs`) to generate specified ngrams and PTP matrices
+### Functions (used by `BuildPTPs`) to generate specified ngrams and PTP matrices
 `ngrams_2 = thisSPR.MakenGrams(maxn_p=2,only=True)`
 
 `PTP_2 = thisSPR.BuildPTP(ngrams_2,ngramsRed=None)[0]`
