@@ -1,6 +1,6 @@
  # pySPR - Symbolic Pattern Recognition in Python
 
-##This code implements the Symbolic Pattern Recognition (SPR) methods as published by:
+## This code implements the Symbolic Pattern Recognition (SPR) methods as published by:
 
 - Akbilgic O and Howe J. *Symbolic Pattern Recognition for Sequential Data*. Sequential Analysis. Accepted, awaiting publication.
 - Akbilgic, O., Howe, J. A., Davis, R. L., December 2016. [*Categorizing Atrial Fibrillation via Symbolic Pattern Recognition*](http://hoajonline.com/medicalstat/2053-7662/4/8#). Journal of Medical Statistics and Informatics 4 (8), 1–9.
