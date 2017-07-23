@@ -6,12 +6,7 @@ for a substring within a string, using polynomial hashing.  The main function
 here is HashSearch
 
 @author: J. Andrew Howe June 2017
-
-Copyright John Andrew Howe 2017.  This code may be freely used, modified, and distributed
-as long as this text in the docstring remains unaltered, with full attribution to me, and 
-under the restriction that no charge is ever levied, and no payment ever expected, requested,
-accounted for, or received for it.  I've chosen not to profit by making the efforts of my
-work available here, and nobody else should profit either.
+Copyright John Andrew Howe 2017. GPL-3.0 License.
 """
 
 
