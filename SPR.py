@@ -3,7 +3,7 @@
 """
 Implement the Symbolic Pattern Recognition (SPR) methods as published by:
   Akbilgic O and Howe J. Symbolic Pattern Recognition for Sequential Data. 
-    Sequential Analysis. Accepted.
+    Sequential Analysis. Accepted for Publication.
   Akbilgic, O., Howe, J. A., Davis, R. L., December 2016. Categorizing Atrial 
     Fibrillation via Symbolic Pattern Recognition. Journal of Medical Statistics 
     and Informatics 4 (8), 1–9.
@@ -12,8 +12,21 @@ Several optimizations have been used, including efficient hash-based substring
 search and several recurrence relations between sequentially-sized lists of 
 ngrams and pattern transition matrices.
 
-@author: J. Andrew Howe June 2017
-Copyright John Andrew Howe 2017. GPL-3.0 License.
+
+Copyright (C) 2017 J. Andrew Howe
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
 # FURTHER CHANCES FOR OPTIMIZATION?  more numpy?
