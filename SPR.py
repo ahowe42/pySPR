@@ -524,7 +524,7 @@ class SPRanal:
     # return the final full PTP matrix
     return PTP, fndPatts
 
-if __main__:
+if (__name__ == "__main__"):
   '''
   SPR Analysis Demo Code, using same example as in the original article
   '''
